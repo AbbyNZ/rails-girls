@@ -14,13 +14,53 @@
  *= require_self
  */
  
- body {
-   padding-top: 60px;
+ 
+ .navbar {
+  min-height: 40px;
+  background-color: #94b4e8;
  }
  
- footer {
-   margin-top: 100px;
+ .navbar-brand {
+  text-align: center;
+  text-decoration: none;
  }
+ 
+ h1 {
+    text-indent: 10px;
+    padding-top: 10px;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    text-align: center;
+}
+
+nav li {
+ display: inline;
+}
+
+li a {
+    color: white;
+    text-decoration: none;
+    text-align: center;
+    display: inline-block;
+    padding: 14px 16px;
+}
+
+li a:hover {
+    background-color: #111;
+}
+
+.navbar-text {
+ float: right;
+}
+ 
+footer {
+   margin-top: 100px;
+}
  
  table, td, th {
    vertical-align: middle;
