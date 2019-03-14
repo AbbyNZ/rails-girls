@@ -145,7 +145,7 @@ GEM
       nokogiri (>= 1.6)
     rails-html-sanitizer (1.0.4)
       loofah (~> 2.2, >= 2.2.2)
-    railties (5.2.1)
+    railties (5.2.2.1)
       actionpack (= 5.2.1)
       activesupport (= 5.2.1)
       method_source
@@ -203,7 +203,7 @@ GEM
       actionview (>= 5.0)
       activemodel (>= 5.0)
       bindex (>= 0.4.0)
-      railties (>= 5.0)
+      railties (~> 5.2.2.1)
     websocket-driver (0.7.0)
       websocket-extensions (>= 0.1.0)
     websocket-extensions (0.1.3)
